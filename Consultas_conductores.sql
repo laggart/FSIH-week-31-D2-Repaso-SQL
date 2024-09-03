@@ -1,0 +1,10 @@
+SELECT count(*) FROM CONDUCTORES;
+SELECT * from CONDUCTORES where apellido = 'Lopez';
+SELECT * FROM CONDUCTORES ORDER BY apellido;
+SELECT * FROM CONDUCTORES	where telefono Like '63%';
+SELECT * FROM CONDUCTORES where	apellido like '%ez';
+SELECT COUNT(*) FROM CONDUCTORES where	apellido = 'Lopez';
+SELECT nombre, apellido, localidad from CONDUCTORES;
+select * from CONDUCTORES where localidad = 'Valencia';
+select * from CONDUCTORES where id between 2 and 8;
+select * from CONDUCTORES where apellido = 'Ramirez' and localidad = 'Cuenca';

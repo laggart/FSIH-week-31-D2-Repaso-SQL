@@ -1,0 +1,10 @@
+select count(*) from VEHICULOS where marca = 'Toyota';
+select * from VEHICULOS where	tipo = 'Bicicleta';
+select * from VEHICULOS where marca = 'Ducati' and modelo = 'MultiStrada';
+select * from VEHICULOS order by anio;
+select tipo, count(*) from VEHICULOS group by tipo;
+select * from VEHICULOS where modelo like '%al%';
+select * from VEHICULOS where anio between 2015 and 2022;
+select distinct marca from VEHICULOS;
+select * from VEHICULOS where id_vehiculos > 3;
+select * from VEHICULOS where marca = 'Renault' and anio > 2015;
